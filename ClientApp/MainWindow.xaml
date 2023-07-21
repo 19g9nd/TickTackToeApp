@@ -1,0 +1,43 @@
+﻿<Window x:Class="ClientApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientApp"
+        mc:Ignorable="d"
+        Title="ClientWindow" Height="450" Width="800" Background="#FF0EBD99">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="163*">
+
+
+            </ColumnDefinition>
+            <ColumnDefinition x:Name="Second" Width="157*">
+
+
+            </ColumnDefinition>
+            <ColumnDefinition Width="160*">
+
+
+            </ColumnDefinition>
+            <ColumnDefinition Width="160*">
+
+
+            </ColumnDefinition>
+            <ColumnDefinition Width="160*">
+
+
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Button Grid.Column="1" Content="Button" HorizontalAlignment="Left" Margin="76,66,0,0" VerticalAlignment="Top" Height="112" Width="122" Grid.ColumnSpan="2"/>
+        <Button Grid.Column="1" Content="Button" HorizontalAlignment="Left" Margin="76,178,0,0" VerticalAlignment="Top" Height="108" Width="122" Grid.ColumnSpan="2"/>
+        <Button Grid.Column="1" Content="Button" HorizontalAlignment="Left" Margin="76,286,0,0" VerticalAlignment="Top" Height="111" Width="122" Grid.ColumnSpan="2"/>
+        <Button Grid.Column="2" Content="Button" HorizontalAlignment="Left" Margin="38,66,0,0" VerticalAlignment="Top" Height="112" Width="122"/>
+        <Button Grid.Column="2" Content="Button" HorizontalAlignment="Left" Margin="38,178,0,0" VerticalAlignment="Top" Height="108" Width="122"/>
+        <Button Grid.Column="2" Content="Button" HorizontalAlignment="Left" Margin="38,286,0,0" VerticalAlignment="Top" Height="111" Width="122"/>
+        <Button Grid.Column="3" Content="Button" HorizontalAlignment="Left" Margin="0,66,0,0" VerticalAlignment="Top" Height="112" Width="122"/>
+        <Button Grid.Column="3" Content="Button" HorizontalAlignment="Left" Margin="0,178,0,0" VerticalAlignment="Top" Height="108" Width="122"/>
+        <Button Grid.Column="3" Content="Button" HorizontalAlignment="Left" Margin="0,286,0,0" VerticalAlignment="Top" Height="111" Width="122"/>
+    </Grid>
+</Window>
